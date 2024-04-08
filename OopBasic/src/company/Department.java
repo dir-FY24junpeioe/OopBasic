@@ -1,6 +1,5 @@
 package company;
 
-import java.security.PublicKey;
 
 public class Department {
     private final String name;
@@ -20,6 +19,11 @@ public class Department {
     }
     
     //nameのgetter
+    public double getName() {
+        return budget;
+    }
+    
+    //budgetのgetter
     public double getBudget() {
         return budget;
     }
