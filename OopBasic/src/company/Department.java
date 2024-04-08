@@ -19,8 +19,8 @@ public class Department {
     }
     
     //nameのgetter
-    public double getName() {
-        return budget;
+    public String getName() {
+        return name;
     }
     
     //budgetのgetter
